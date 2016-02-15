@@ -1,0 +1,12 @@
+<template name="nav">
+  <nav>
+      <ul>
+        <li><a href="#all" class="filter">All</a></li>
+          {{#each categories}}
+            <li><a href="#{{category}}" class="filter">{{category}}</a></li>
+          {{/each}}
+          <li><a href="#footer">Contact</a></li>
+          <li><a href="#" class="icon fa-shopping-cart"></a></li>
+      </ul>
+  </nav>
+</template>
